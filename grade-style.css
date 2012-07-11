@@ -1,0 +1,30 @@
+.dx_grade_main {
+	background-color: #F9F9F9;
+	padding: 10px;
+	border: 4px solid #D1D1D1;
+	margin-bottom:10px;	
+	}
+	
+.dx_grade_main h1 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 5px;	
+	}
+	
+#submit_rate {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #9F1919;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor:pointer;
+	margin-top:5px;
+	margin-bottom:5px;
+	}
