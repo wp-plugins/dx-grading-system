@@ -11,6 +11,7 @@ A grading system plugin for wordpresss, its allow users to Grade post or page fr
 == Description ==
 
 A grading system plugin for wordpresss, its allow users to Grade post or page from a range of A,B,C,D,F
+
 <strong>Template Tag For Grading Form</strong>
 <code><?php if (function_exists('dx_grade_form')){ dx_grade_form(); }?></code>
 
