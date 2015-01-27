@@ -66,7 +66,7 @@ function dx_grade_form() {
     	<?php 
 			$current_grade = 1;
 			$grade_user = 1;
-			
+			$grade_avg = 0;
 			$current_grade = get_post_meta($post->ID, 'total_rate', true);
 			
 			$grade_user = get_post_meta($post->ID, 'grade_user', true);
@@ -104,7 +104,7 @@ function dx_grade_form() {
 		?>
         
     	<h1>Current Grade: 
-		<?php if($nograde !== true) { ?>
+		<?php if(@$nograde !== true) { ?>
 		<?php echo $grade;  
         } else { ?>
         No Grade added

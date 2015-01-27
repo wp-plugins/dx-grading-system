@@ -1,7 +1,8 @@
 === Plugin Name ===
 Contributors: Hasanul Banna
-Donate link: http://daxxip.com/
+Donate link: http://www.banna360.com/
 Tags: Grading, Grade system, Points
+Tested up to: 4.1
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -16,7 +17,11 @@ A grading system plugin for wordpresss, its allow users to Grade post or page fr
 <code><?php if (function_exists('dx_grade_form')){ dx_grade_form(); }?></code>
 
 <strong>Template Tag To Display Grade of Post</strong>
-<code><?php if (function_exists('dx_grade')){ dx_grade(); }?></code>
+<code><?php if (function_exists('dx_grade')){ echo dx_grade(); }?></code>
+
+Developed by [Coregenie Technologies](http://coregenie.com/)
+
+Coded By [BANNA360](http://hasanulbanna.com/)
 
 == Installation ==
 
